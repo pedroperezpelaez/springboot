@@ -1,0 +1,8 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: none
+
+  springdoc:
+    packagesToScan: com.pedroperez.springboot.controller
+    pathsToMatch: /v1, /api/**
